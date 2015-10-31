@@ -1,1 +1,0 @@
-Note: got csv of SNP 500 stocks from here. https://github.com/datasets/s-and-p-500-companies
