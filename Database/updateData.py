@@ -5,10 +5,8 @@
 #refer to this article for how to access data in the database: https://docs.python.org/2/library/sqlite3.html
 
 import sqlite3
+import os
 import urllib.request
-#import urllib2
-import os #gets file path location
-import csv
 
 conn = sqlite3.connect('stocks.db')
 
@@ -21,8 +19,13 @@ working_directory = os.getcwd()
 file_path = os.path.join(working_directory + '/data')
 
 for i in stock_ticker[0:1]:
-	print (i)
-	#please note that this is soham's api key
-	url = 'https://www.quandl.com/api/v3/datasets/WIKI/{0}/data.csv?api_key= eFWztrj8CjJUa4zjQ2Mz'.format(i)
-	print (url)
-	response = urllib.request.urlopen(url)
+    #print (i)
+    #please note that this is soham's api key
+    url = 'https://www.quandl.com/api/v3/datasets/WIKI/{0}/data.csv?api_key=eFWztrj8CjJUa4zjQ2Mz'.format(i)
+    print (url)
+    #save_location = file_path{0}.format(i)
+    response = urllib.request.urlopen(url)
+    csv_file = response.read()
+    response.close()
+    print (csv_file)
+    #urllib.urlretrieve
