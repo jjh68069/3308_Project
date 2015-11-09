@@ -7,6 +7,7 @@
 import sqlite3
 import os
 import urllib.request
+import csv
 
 conn = sqlite3.connect('stocks.db')
 
@@ -25,7 +26,11 @@ for i in stock_ticker[0:1]:
     print (url)
     #save_location = file_path{0}.format(i)
     response = urllib.request.urlopen(url)
+
+    #csv_file = csv.reader(response)
+    #print(csv_file)
+
     csv_file = response.read()
-    response.close()
     print (csv_file)
-    #urllib.urlretrieve
+
+    response.close()
