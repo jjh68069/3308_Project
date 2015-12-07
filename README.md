@@ -1,10 +1,10 @@
 #Project Name: Stock Insights
 
 #Team Members:
-	*Kevin Flynn
-	*Jason Hill
-	*Andrew Callahan
-	*Soham Shah
+*Kevin Flynn
+*Jason Hill
+*Andrew Callahan
+*Soham Shah
 
 #Class
 	CSCI 3308 - Software Development Methods and Tools
