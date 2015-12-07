@@ -3,6 +3,7 @@
 
 #J-Dog
 #Come at me
+"""Python Unit Testing for StockAnalysis Class"""
 
 import unittest
 import momentum
@@ -24,17 +25,20 @@ class MomentumTestCase(unittest.TestCase):
         pass
 
     def test_init(self):
+        """test_init assures that the filename passed in a parameter is the same filename being examined"""
         filename = "nflx.csv"
         p = momentum.StockAnalysis(filename)
         self.assertEqual(p.filename, filename, "'text' does not match input")
 
     # Add Your Test Cases Here...
     def testFindMA(self):
+        """testFindMA ensures that the return type of findMA function is a tuple"""
         filename = "nflx.csv"
         p = momentum.StockAnalysis(filename)
         self.assertIsInstance(p.findMA(),tuple, "Error in return type")
 
     def testPrintResults(self):
+        """testPrintResults ensures that the printResults function does not have a return value"""
         filename = "nflx.csv"
         p = momentum.StockAnalysis(filename)
         self.assertIsNone(p.printResults(), "Error in return type")
