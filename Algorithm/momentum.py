@@ -2,16 +2,18 @@ import csv
 from flask import Flask, render_template
 app = Flask(__name__)
 
+"""@package docstring
+Momentum Algorithm"""
+
 class StockAnalysis:
+	"""StockAnalysis Class Docking"""
 
 	def __init__(self, filename):
 
 		self.filename = filename
 
 	def findMA(self):
-
-			#lastTwenty = []
-			#we start with a 6 column csv file: date, close,volume, open, high, low
+		"""Moving Average Docking:  we start with a 6 column csv file: date, close,volume, open, high, low """
 		companyCSV = self.filename
 		v = open(companyCSV)
 		r = csv.reader(v)
@@ -30,7 +32,7 @@ class StockAnalysis:
 		return dataTuple
 					
 	def printResults(self):
-
+		"""Printing Results of Algorithm Docking"""
 		MAthenPrice = self.findMA()
 		print("The moving average is: ", MAthenPrice[0], "Last Close was: ", MAthenPrice[1])
 		if MAthenPrice[0] >= MAthenPrice[1]:
