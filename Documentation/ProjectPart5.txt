@@ -48,3 +48,7 @@ All the tools your group used
 Challenges you encountered, and how you overcame them and how it may have affected your original project plans.
 
 Demo your project
+
+Ideas:
+	talk about Quandl API
+	limitations on file size. we couldn't do the entire history beucase each excel file was 1gb and the databse would be too huge

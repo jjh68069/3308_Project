@@ -1,0 +1,53 @@
+Part 5: presentation
+	Cover the following:
+		Title
+		Names
+		All tools used
+			name, logo, purpose
+			rating on how useful it was out of 5
+			Methodologies used:
+			What tools you should have:
+				Project tracker
+				VCS repo
+				Database
+				Testing
+				Auto documenter
+				Deployment Environment
+			Optional additional tools:
+				IDE's
+				Frameworks
+				Hardware
+		Challenges you encountered
+		Demo the project
+
+Part 6: Final Submission
+	Title:
+	Names
+	Video <5min toa  potential customer about the project
+	VCS must include:
+		source code
+		test cases
+		auto documenter documents
+		Video of demo
+		README explaining what the project is about
+	Screenshot of each person's contributions - saved to VCS?
+	Deployment:
+		link to deployment envn or instructions on how to run it
+
+Make sure:
+	TA's have access to the VCS
+	TAG repo with final submission
+	README includes:
+		description of repo organization
+		description of where to find and build the documents
+		how to build run test code
+		if CI system a link to the CI page
+
+Part 6-2: peer eval
+	submit as spreadsheet
+	all the same Numbers doesn't work?
+	explain how the team did overall
+	write a short paragraph about how the team was? answer a question on there
+
+
+
