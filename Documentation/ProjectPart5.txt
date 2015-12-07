@@ -1,0 +1,50 @@
+Title of the project: StockInsights
+
+Names of each person in the group:
+	Kevin Flynn
+	Jason Hill
+	Andrew Callahan
+	Soham Shah
+
+All the tools your group used
+	
+	Name of the tool, logo, and purpose (e.g., Project Tracking, VCS)
+		Github
+			Version Control system
+		Trello
+			project tracking
+
+	Your group’s rating on how useful/good this tool/methodology was, (ranked 1..5 where 5 stars is best and 1 star is useless)
+
+		Github
+			highly effective, can easily see who's contributing and by how much.
+		Trello
+			Decently effective. No doubt it becomes much more necessary when getting into larger teams.
+
+	Methodologies
+		AGILE
+			earlier in the semester 3-4 day sprints. meetnings Monday and Wednesday.
+			1 week sprints with standups meetings each Monday
+
+	Expected tools
+		Project Tracker
+		VCS Repository
+		Database
+			SQLLite3
+		Testing
+		Auto-documenter
+		Deployment environment 
+
+	(Optional) Additional tools you may have used
+		IDEs (e.g., Eclipse, Code::Blocks, xCode)
+			PyCharm 
+				nice integration with python. inline code suggestions. Automatic building. Integration with github
+		Frameworks (e.g., Laravel, Yii, Android Studio)
+		Hardware (e.g., Raspberry Pi, Arduino)
+
+		Iterative, Waterfall, Agile, TDD, pair programming, peer code reviews, 
+
+
+Challenges you encountered, and how you overcame them and how it may have affected your original project plans.
+
+Demo your project
