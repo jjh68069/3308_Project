@@ -1,0 +1,31 @@
+Hi, we are StockInsights, we provide innovative investing advice oriented solely towards millenials, based on the latest market data
+
+The target market for this service is millennials, specifically 18­-34 year olds. They are highly educated (compared to previous generations) but have little direct exposure to the stock market. The market segment is 75.3 million people within the US. And, that number is only growing as more children reach adulthood (soon this generation will outnumber the baby boomers). This means we have a significant user base that we can target. An additional benefit is that millenials have grown up with technology and so they won't be opposed to getting investment advice from a website.
+
+The financial technology sector is a very popular emerging sector of the technology sphere. There are numerous startups that are oriented towards breaking down traditional barriers of entry so that people with access to less resources can get the access to high quality financial resources. There are many budgeting tools like Personal Finance, You Need a Budget, and Mint. These tools attempt to help people manage their finances. 
+
+Our largest potential competitor would be Intuit which has a highly regarded brand name and runs one of the most popular products in the category ­ Mint. They currently serve over 2 million customers. In the investing sphere, both Wealthfront and Betterment have over $3 billion in Assets Under Management.
+
+Our competitive advantage in this sphere is that our product will only distribute information. It is easy for us to operate at loss considering there is very little variable costs related to running the website. Simple advertisements would be an easy way to monetize the site and more than recuperate the losses of web hosting
+
+A critical point of note is that this isn’t a zero sum game. Our service can operate as a compliment to the other investing services as a more intuitive approach tailored to millennials for organizing and viewing data. This way we can offer a different perspective from the incumbent players. And still carry out our vision
+
+Now let's take a look at the implementation itself:
+
+When you click through to our website you are immeadtely taken to a fun and inviting landing page that scales for both mobile and desktop interfaces.
+
+On the homepage, The product is described, and the text makes a pitch and sale to our prospective clientele
+
+The goal of the homepage is to be fun and inviting, which is why we have included quotes from movies like the Wolf of wall Street so the that they know we are not dour old men on wall street - we are trustworthy and humorous millenials, just like them. 
+
+After people have read the mainpage and are invested in the website, they can click through the function where all the data is stored.
+
+The website currently in our early functionality is limited to analysis of momentum, but over time the webiste would grow to include thnigs like value as well
+
+Here you are prompted to put in a stock ticker: let's put in apple and see what we get.
+
+Now the website queries the database of market data. It then shows you the previous market data for the company in the table with the opening and closing prices.
+
+Also in the background, the website is running our proprietary algorithm to determine if the stock is above it's moving average and if it is it reccomends that custoemrs buy it.
+
+In conclusion we hope to significantly change the current Personal finance landscape by providing cheap investing advice to millenials.
