@@ -34,7 +34,7 @@ There are three main folders
 * The page will now display the data on the stock you requested
 
 ##Deployment
-*Website has also been deployed to: http://soham-shah.github.io/ for wasy access
+*Website has also been deployed to: http://soham-shah.github.io/ for easy access
 
 ##Running test code
 Currently we have coded unit tests for the algorithm implementations
