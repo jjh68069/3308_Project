@@ -31,10 +31,10 @@ class StockAnalysisTestCase(unittest.TestCase):
         self.assertEqual(p.filename, filename, "'text' does not match input")
 
     # Add Your Test Cases Here...
-    def testFindMA(self):
-        """testFindMA ensures that the return type of findMA function is a tuple"""
+    def testMomentum(self):
+        """testMomentum ensures that the return type of findMA function is a tuple"""
         filename = "nflx.csv"
-        p = ALgorithms.StockAnalysis(filename)
+        p = Algorithms.StockAnalysis(filename)
         self.assertIsInstance(p.momentum(),tuple, "Error in return type")
 
     def testPrintResults(self):

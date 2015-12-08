@@ -39,11 +39,11 @@ class StockAnalysis:
 			print("The price is below the 20 day moving average, we do not recommend this company.")
 		else:
 			print("The price is above the 20 day moving average, it is a viable purchase.")
-'''
+
 if __name__ == "__main__": 
 
 	instance = StockAnalysis("nflx.csv")
 	instance.printResults()
-'''
+	
 
 
