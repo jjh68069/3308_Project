@@ -34,9 +34,9 @@ There are three main folders
 * The page will now display the data on the stock you requested
 
 ##Deployment
-*Website has also been deployed to: http://soham-shah.github.io/ for easy access
+* Website has also been deployed to: http://soham-shah.github.io/ for easy access
 
 ##Running test code
-Currently we have coded unit tests for the algorithm implementations
-You can run these by cloning the git repo to your local computer and running the Algorithms_Test.py python script using the python interpreter
+* Currently we have coded unit tests for the algorithm implementations
+* You can run these by cloning the git repo to your local computer and running the Algorithms_Test.py python script using the python interpreter
 
