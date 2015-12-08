@@ -27,13 +27,13 @@ There are three main folders
 ##Running the program.
 * Go into the HTML folder 
 * Double click on index.html 
-  * This will display the website in your default browser (we reccomend Chrome or Firefox)
+  * This will display the website in your default browser (we recommend Chrome or Firefox)
 * Click on the function tab on the top bar
 * Query the database by adding a stock market ticker from a stock in the S&P500 like aapl into the input box
 * The page will now display the data on the stock you requested
 
 ##Running test code
 Currently we have coded unit tests for the algorithm implementations
-You can run these by cloning the git repo to your local computer and running the momentum_test.py python script using the python interpreter
+You can run these by cloning the git repo to your local computer and running the Algorithms_Test.py python script using the python interpreter
 
 
